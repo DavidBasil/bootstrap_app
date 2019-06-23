@@ -17,4 +17,8 @@ class MainController extends Controller
     public function container(){
         return view('container');
     }
+
+    public function grid(){
+        return view('grid');
+    }
 }
