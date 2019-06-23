@@ -13,4 +13,8 @@ class MainController extends Controller
     public function typography(){
         return view('typography');
     }
+
+    public function container(){
+        return view('container');
+    }
 }

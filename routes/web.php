@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('colors', 'MainController@colors')->name('colors');
 Route::get('typography', 'MainController@typography')->name('typography');
+Route::get('container', 'MainController@container')->name('container');
