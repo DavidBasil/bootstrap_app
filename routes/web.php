@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('colors', 'MainController@colors')->name('colors');
+Route::get('typography', 'MainController@typography')->name('typography');
