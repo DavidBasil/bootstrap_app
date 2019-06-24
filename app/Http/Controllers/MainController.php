@@ -21,4 +21,8 @@ class MainController extends Controller
     public function grid(){
         return view('grid');
     }
+
+    public function padding_margin(){
+        return view('padding_margin');
+    }
 }
