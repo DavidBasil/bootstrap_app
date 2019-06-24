@@ -13,11 +13,18 @@
   <script src="{{ asset('js/app.js') }}" defer></script>
 
   <!-- Fonts -->
-  <link rel="dns-prefetch" href="//fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  {{-- <link rel="dns-prefetch" href="//fonts.gstatic.com"> --}}
+  {{-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> --}}
 
   <!-- Styles -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo:700&display=swap" rel="stylesheet">
+  <style type="text/css" media="screen">
+body {
+  font-family: 'Arvo', serif;
+}
+  </style>
 </head>
 <body>
 @yield('content')
