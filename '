@@ -1,0 +1,53 @@
+@extends('layouts.app')
+
+@section('content')
+  
+<div class="container bg-secondary text-white">
+  <div class="row">
+    <div class="col">
+      <h1>standard heading</h1>
+      <p class="text-danger">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      <button type="button" class="btn btn-primary m-2 p-2">primary button</button>
+      <button type="button" class="btn btn-danger m-3 p-3">danger button</button>
+    </div>
+  </div>
+</div>
+{{-- end of container --}}
+
+<div class="container-fluid bg-warning text-dark py-5">
+  <div class="row">
+    <div class="col">
+      <h1 class="display-1">display-1</h1>
+      <p class="display-1">paragraph with display-1</p>
+      <p class="text-success lead px-5">
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+      vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+      no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      <button class="btn btn-dark text-danger mt-4">dark button</button>
+      <button class="btn btn-dark text-muted mb-4">success button</button>
+      <button class="btn btn-secondary text-primary mx-4">secondary button</button>
+    </div>
+  </div>
+</div>
+{{-- end of container fluid --}}
+
+<section class="bg-dark" id="skills">
+  <div class="container">
+    <div class="row text-center h-100">
+      <div class="col">
+        <h1 class="text-white">Section Example</h1>
+        <p class="display-4 text-warning">paragraph display</p>
+        <p class="text-info px-5 text-right">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+        <p class="text-light text-left py-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+        <button class="btn btn-warning text-secondary">btn warning</button>
+        <button class="btn btn-info text-dark">btn info</button>
+        <button class="btn btn-light text-dark">btn light</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+@endsection
