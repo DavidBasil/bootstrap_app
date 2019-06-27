@@ -108,6 +108,173 @@
 </section>
 {{-- end of about section --}}
 
+{{-- project section --}}
+<section id="projects" class="py-5 bg-secondary">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col">
+        <h1 class="display-5 text-uppercase text-light mb-0">
+          <strong>projects</strong>
+        </h1>
+        <div class="w-50 mx-auto p-1 bg-warning mb-2"></div>
+      </div>
+    </div>
+    <div class="row py-3 text-center">
+      <div class="col-md-4 my-3">
+        <img src="https://picsum.photos/id/237/600/400" class="img-fluid rounded" alt="">
+      </div>
+      <div class="col-md-4 my-3">
+        <img src="https://picsum.photos/id/234/600/400" class="img-fluid img-thumbnail bg-danger border border-danger" alt="">
+      </div>
+      <div class="col-md-4 my-3">
+        <img src="https://picsum.photos/id/233/600/400" class="img-fluid rounded-circle" alt="">
+      </div>
+    </div>
+
+    <div class="row py-3 text-center no-gutters">
+      <div class="col-md-4 my-3">
+        <img src="https://picsum.photos/id/237/600/400" class="img-fluid rounded" alt="">
+      </div>
+      <div class="col-md-4 my-3">
+        <img src="https://picsum.photos/id/234/600/400" class="img-fluid rounded" alt="">
+      </div>
+      <div class="col-md-4 my-3">
+        <img src="https://picsum.photos/id/233/600/400" class="img-fluid rounded" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+{{-- end of project section --}}
+
+{{-- team section --}}
+<section id="team" class="py-5 bg-light">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col">
+        <h1 class="display-5 text-uppercase text-dark mb-0">
+          <strong>team</strong>
+        </h1>
+        <div class="w-50 mx-auto p-1 bg-warning mb-2"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4 my-3">
+        <div class="card">
+          <img src="https://picsum.photos/id/143/600/400" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-capitalize">team member</h5>
+            <p class="card-text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+            </p>
+            <a href="#" class="btn btn-outline-info text-uppercase">press here</a>
+          </div>
+          <div class="card-footer bg-secondary">
+            <div class="row">
+              <div class="col text-center">
+                <a href="#" class="text-center"><i class="fab fa-facebook fa-2x text-white"></i></a>
+              </div>
+              <div class="col text-center">
+                <a href="#"><i class="fab fa-twitter fa-2x text-white"></i></a>
+              </div>
+              <div class="col text-center">
+                <a href="#"><i class="fab fa-youtube fa-2x text-white"></i></a>
+              </div>
+              <div class="col text-center">
+                <a href="#"><i class="fab fa-google fa-2x text-white"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 my-3">
+        <div class="card">
+          <img src="https://picsum.photos/id/143/600/400" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-capitalize">team member</h5>
+            <p class="card-text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+            </p>
+            <a href="#" class="btn btn-outline-info text-uppercase">press here</a>
+          </div>
+          <div class="card-footer bg-secondary">
+            <div class="row">
+              <div class="col text-center">
+                <a href="#" class="text-center"><i class="fab fa-facebook fa-2x text-white"></i></a>
+              </div>
+              <div class="col text-center">
+                <a href="#"><i class="fab fa-twitter fa-2x text-white"></i></a>
+              </div>
+              <div class="col text-center">
+                <a href="#"><i class="fab fa-youtube fa-2x text-white"></i></a>
+              </div>
+              <div class="col text-center">
+                <a href="#"><i class="fab fa-google fa-2x text-white"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 my-3">
+        <div class="card">
+          <img src="https://picsum.photos/id/143/600/400" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-capitalize">team member</h5>
+            <p class="card-text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+            </p>
+            <a href="#" class="btn btn-outline-info text-uppercase">press here</a>
+          </div>
+          <div class="card-footer bg-secondary">
+            <div class="row">
+              <div class="col text-center">
+                <a href="#" class="text-center"><i class="fab fa-facebook fa-2x text-white"></i></a>
+              </div>
+              <div class="col text-center">
+                <a href="#"><i class="fab fa-twitter fa-2x text-white"></i></a>
+              </div>
+              <div class="col text-center">
+                <a href="#"><i class="fab fa-youtube fa-2x text-white"></i></a>
+              </div>
+              <div class="col text-center">
+                <a href="#"><i class="fab fa-google fa-2x text-white"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 my-3">
+        <div class="card">
+          <img src="https://picsum.photos/id/143/600/400" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-capitalize">team member</h5>
+            <p class="card-text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+            </p>
+            <a href="#" class="btn btn-outline-info text-uppercase">press here</a>
+          </div>
+          <div class="card-footer bg-secondary">
+            <div class="row">
+              <div class="col text-center">
+                <a href="#" class="text-center"><i class="fab fa-facebook fa-2x text-white"></i></a>
+              </div>
+              <div class="col text-center">
+                <a href="#"><i class="fab fa-twitter fa-2x text-white"></i></a>
+              </div>
+              <div class="col text-center">
+                <a href="#"><i class="fab fa-youtube fa-2x text-white"></i></a>
+              </div>
+              <div class="col text-center">
+                <a href="#"><i class="fab fa-google fa-2x text-white"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{{-- end of team section --}}
 
 
 @endsection
