@@ -24,6 +24,9 @@
 body {
   font-family: 'Arvo', serif;
 }
+.about-picture {
+  background: url("/images/background.jpg")center/cover no-repeat fixed;
+}
   </style>
 </head>
 <body>
