@@ -1,6 +1,5 @@
 @extends('layouts.app')
-<style type="text/css" media="screen">
-</style>
+
 @section('content')
 {{-- header --}}
 <header class="bg-dark" id="header">
@@ -275,6 +274,56 @@
   </div>
 </section>
 {{-- end of team section --}}
+
+{{-- carousel section --}}
+<section id="carousel" class="py-5 bg-primary">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-4 text-center">
+        <h1 class="display-5 text-uppercase text-dark mb-0">
+          <strong>first carousel</strong>
+        </h1>
+        <div class="w-75 mx-auto p-1 bg-warning"></div>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12 mx-auto text-center">
+      <!-- carousel -->
+      <div id="example" class="carousel slide mt-3" data-ride="carousel">
+        <!-- indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#example" data-slide-to="0" class="active"></li>
+          <li data-target="#example" data-slide-to="1"></li>
+          <li data-target="#example" data-slide-to="3"></li>
+        </ul>
+        <!-- images -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://picsum.photos/id/237/600/400" alt="" class="d-block w-100">
+          </div>   
+          <div class="carousel-item">
+            <img src="https://picsum.photos/id/200/600/400" alt="" class="d-block w-100">
+          </div>   
+          <div class="carousel-item">
+            <img src="https://picsum.photos/id/211/600/400" alt="" class="d-block w-100">
+          </div>   
+        </div>
+        <!-- end of images -->
+        <!-- controls -->
+        <a href="#example" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#example" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        <!-- end of controls -->
+      </div>
+      <!-- end of carousel -->
+    </div>
+    </div>
+  </div>
+</section>
+{{-- end of carousel section --}}
 
 
 @endsection
